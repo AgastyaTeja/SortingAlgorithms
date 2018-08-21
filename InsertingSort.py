@@ -1,5 +1,5 @@
 def InsertionSort(array):
-  for i in range(1,len(array)): # iterating from second element as 1st is sorted
+  for i in range(1,len(array)): # iterating from second element as we compare 2 elements
 
     value=array[i] 
     temp=i
